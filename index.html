@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose Your Editor</h1>
+        
+        <label><input type="checkbox" id="job-summary" onclick="toggleEditors(this)"> Job Summary</label><br>
+        <label><input type="checkbox" id="blog-post" onclick="toggleEditors(this)"> Blog Post</label><br>
+        <label><input type="checkbox" id="question-paper" onclick="toggleEditors(this)"> Question Paper</label><br>
+        
+        <iframe id="editor-frame" src="" frameborder="0" width="100%" height="500px"></iframe> <!-- Editor iframe -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
