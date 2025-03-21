@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#editorjs {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 300px;
+}
