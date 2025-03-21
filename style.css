@@ -1,0 +1,20 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    width: 60%;
+}
+
+iframe {
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 18px;
+    margin: 10px;
+}
